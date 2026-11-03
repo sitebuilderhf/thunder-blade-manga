@@ -1,0 +1,398 @@
+{
+ "title": "THUNDER BLADE",
+ "jp": "雷神の刃",
+ "tagline": "A rooftop duel on a burning pagoda in the heart of the storm",
+ "theme": "raijin",
+ "reveal": "ragged",
+ "finaleReveal": "ragged",
+ "stepFps": 12,
+ "wheel": 0.5,
+ "fx": {
+  "particles": [
+   {
+    "kind": "rain",
+    "count": 160,
+    "color": "rgba(70,40,160,.32)"
+   },
+   {
+    "kind": "rain",
+    "count": 30,
+    "color": "rgba(60,30,140,.5)",
+    "layer": "front",
+    "speed": 1.4
+   }
+  ],
+  "flash": true,
+  "flashAlpha": 0.7,
+  "shake": 9
+ },
+ "vars": {},
+ "opening": {
+  "id": "p1",
+  "ar": "21/9",
+  "video": "media/p1.mp4",
+  "poster": "media/p1.jpg",
+  "duration": 5.166667,
+  "lines": [],
+  "alt": "Kaito crouched on the edge of a burning five-story pagoda roof at night in a violent thunderstorm, katana drawn low, rain lashing, a giant lightning bolt splitting the violet sky b",
+  "focus": 28
+ },
+ "panels": [
+  {
+   "id": "p2",
+   "ar": "16/9",
+   "video": "media/p2.mp4",
+   "poster": "media/p2.jpg",
+   "duration": 5.166667,
+   "lines": [
+    {
+     "who": "Narrator",
+     "text": "The year without a sun. Every night the storm returned to the same mountain.",
+     "side": "tl"
+    },
+    {
+     "who": "Narrator",
+     "text": "And every night, the warlord Gozan waited on the burning pagoda for a challenger.",
+     "side": "tr"
+    }
+   ],
+   "alt": "the burning pagoda on a mountain top, storm clouds swirling in a vortex above it, violet lightning, tiny silhouettes of two warriors on the top roof, rain sheets.",
+   "layout": {
+    "w": 86,
+    "wm": 96,
+    "align": "center",
+    "mt": 8
+   }
+  },
+  {
+   "id": "p3",
+   "ar": "21/9",
+   "video": "media/p3.mp4",
+   "poster": "media/p3.jpg",
+   "duration": 5.166667,
+   "lines": [
+    {
+     "who": "Kaito",
+     "text": "Ninety-nine men climbed this mountain before me.",
+     "side": "tl"
+    },
+    {
+     "who": "Kaito",
+     "text": "Your sword is too heavy for a storm like this.",
+     "side": "br"
+    }
+   ],
+   "alt": "Extreme close-up strip of Kaito's eyes under wet hair, raindrops on lashes, lightning reflected in his irises, scar over the brow, intense focus.",
+   "layout": {
+    "w": 64,
+    "wm": 96,
+    "align": "left",
+    "mt": -11,
+    "z": 3
+   }
+  },
+  {
+   "id": "n1",
+   "ar": "16/9",
+   "video": "media/n1.mp4",
+   "poster": "media/n1.jpg",
+   "duration": 5.166667,
+   "lines": [
+    {
+     "who": "Narrator",
+     "text": "Ten years ago, Gozan cut down the only man who ever taught Kaito to hold a blade.",
+     "side": "tl"
+    },
+    {
+     "who": "Master",
+     "text": "Don't fight the storm, Kaito. Become the place where the lightning lands.",
+     "side": "tr"
+    }
+   ],
+   "alt": "a small boy (young Kaito) kneeling in the rain at the foot of a dark pagoda beside his fallen sword master, holding the master's broken katana, violet and sepia washes, memory-like",
+   "layout": {
+    "w": 86,
+    "wm": 96,
+    "align": "center",
+    "mt": 9
+   }
+  },
+  {
+   "id": "p4",
+   "ar": "3/4",
+   "video": "media/p4.mp4",
+   "poster": "media/p4.jpg",
+   "duration": 5.166667,
+   "lines": [
+    {
+     "who": "Gozan",
+     "text": "I remember that face. The swordsman's orphan.",
+     "side": "tl"
+    },
+    {
+     "who": "Gozan",
+     "text": "The storm serves me, boy. It always has.",
+     "side": "br"
+    }
+   ],
+   "alt": "Gozan rising to full height on the roof ridge, demon mask glowing with fire light, massive nodachi resting on his armored shoulder, cape of fire and rain behind him, low heroic ang",
+   "layout": {
+    "w": 34,
+    "wm": 74,
+    "align": "left",
+    "mt": -11,
+    "z": 3
+   },
+   "sfx": {
+    "text": "ゴゴゴ",
+    "x": 78,
+    "y": 66,
+    "rot": 10
+   }
+  },
+  {
+   "id": "n2",
+   "ar": "21/9",
+   "video": "media/n2.mp4",
+   "poster": "media/n2.jpg",
+   "duration": 5.166667,
+   "lines": [
+    {
+     "who": "Kaito",
+     "text": "Then let's ask the storm whose side it's on.",
+     "side": "tl"
+    },
+    {
+     "who": "Gozan",
+     "text": "Ninety-nine graves, and this mountain is still hungry.",
+     "side": "br"
+    }
+   ],
+   "alt": "Kaito and the crimson-armored demon-masked warlord Gozan face each other across the ridge of a burning pagoda roof, blades drawn, a jagged lightning bolt splitting the sky exactly ",
+   "layout": {
+    "w": 64,
+    "wm": 96,
+    "align": "right",
+    "mt": 9
+   }
+  },
+  {
+   "id": "p5",
+   "ar": "16/9",
+   "video": "media/p5.mp4",
+   "poster": "media/p5.jpg",
+   "duration": 5.166667,
+   "lines": [
+    {
+     "who": "Narrator",
+     "text": "One step. Two. The roof tiles screamed under his feet.",
+     "side": "tl"
+    }
+   ],
+   "alt": "Kaito sprinting along the slanted roof tiles toward the camera, tiles shattering under his feet, katana trailing white lightning, motion lines, rain splashing.",
+   "layout": {
+    "w": 86,
+    "wm": 96,
+    "align": "center",
+    "mt": 9
+   },
+   "sfx": {
+    "text": "ダッ",
+    "x": 18,
+    "y": 30,
+    "rot": 8
+   }
+  },
+  {
+   "id": "n3",
+   "ar": "4/3",
+   "video": "media/n3.mp4",
+   "poster": "media/n3.jpg",
+   "duration": 5.166667,
+   "lines": [
+    {
+     "who": "Gozan",
+     "text": "Too slow! Just like your master!",
+     "side": "tl"
+    },
+    {
+     "who": "Kaito",
+     "text": "Hgh—!",
+     "side": "tr"
+    }
+   ],
+   "alt": "Gozan's massive nodachi smashes into Kaito's guard, sending Kaito skidding backward across the roof tiles toward the very edge, tiles shattering, his katana nearly torn from his ha",
+   "layout": {
+    "w": 70,
+    "wm": 92,
+    "align": "right",
+    "mt": 9
+   },
+   "sfx": {
+    "text": "ドガッ",
+    "x": 82,
+    "y": 62,
+    "rot": -6
+   }
+  },
+  {
+   "id": "n4",
+   "ar": "3/4",
+   "video": "media/n4.mp4",
+   "poster": "media/n4.jpg",
+   "duration": 5.166667,
+   "lines": [
+    {
+     "who": "Kaito",
+     "text": "Become the place where the lightning lands…",
+     "side": "tl"
+    },
+    {
+     "who": "Kaito",
+     "text": "I understand now, Master.",
+     "side": "tr"
+    }
+   ],
+   "alt": "Kaito hanging from the edge of the burning pagoda roof by one hand, rain pouring, violet lightning above, his eyes calm and determined, katana still in his other hand.",
+   "layout": {
+    "w": 34,
+    "wm": 74,
+    "align": "left",
+    "mt": -11,
+    "z": 3
+   }
+  },
+  {
+   "id": "p6",
+   "ar": "4/3",
+   "video": "media/p6.mp4",
+   "poster": "media/p6.jpg",
+   "duration": 5.166667,
+   "lines": [
+    {
+     "who": "Kaito",
+     "text": "RAAAH!",
+     "side": "tl"
+    },
+    {
+     "who": "Gozan",
+     "text": "Where does this strength come from?!",
+     "side": "tr"
+    }
+   ],
+   "alt": "katana and nodachi meet in a blinding explosion of sparks and lightning between the two fighters, shockwave rings blasting rain outward, faces lit white-gold.",
+   "layout": {
+    "w": 70,
+    "wm": 92,
+    "align": "right",
+    "mt": -22,
+    "z": 2,
+    "mtm": 4
+   },
+   "sfx": {
+    "text": "ガキィン",
+    "x": 80,
+    "y": 28,
+    "rot": -9
+   }
+  },
+  {
+   "id": "p7",
+   "ar": "1/1",
+   "video": "media/p7.mp4",
+   "poster": "media/p7.jpg",
+   "duration": 5.166667,
+   "lines": [
+    {
+     "who": "Gozan",
+     "text": "Impossible… the storm… abandoned me?",
+     "side": "tl"
+    }
+   ],
+   "alt": "Close-up of Gozan's demon mask cracking in half down the center, a glowing line of lightning through the crack, rain streaming over lacquer.",
+   "layout": {
+    "w": 36,
+    "wm": 72,
+    "align": "left",
+    "mt": -11,
+    "z": 3
+   }
+  },
+  {
+   "id": "n5",
+   "ar": "1/1",
+   "video": "media/n5.mp4",
+   "poster": "media/n5.jpg",
+   "duration": 5.166667,
+   "lines": [
+    {
+     "who": "Kaito",
+     "text": "It never served you.",
+     "side": "tl"
+    },
+    {
+     "who": "Kaito",
+     "text": "It was only waiting for someone worthy.",
+     "side": "br"
+    }
+   ],
+   "alt": "Kaito standing on the roof ridge raising his katana to the sky as a colossal violet-gold lightning bolt strikes the blade, his whole silhouette outlined in white light, rain frozen",
+   "layout": {
+    "w": 36,
+    "wm": 72,
+    "align": "right",
+    "mt": 9
+   },
+   "sfx": {
+    "text": "ゴロゴロ",
+    "x": 82,
+    "y": 62,
+    "rot": -6
+   }
+  }
+ ],
+ "finale": {
+  "id": "p8",
+  "ar": "16/9",
+  "video": "media/p8.mp4",
+  "poster": "media/p8.jpg",
+  "duration": 5.166667,
+  "lines": [
+   {
+    "who": "Kaito",
+    "text": "The storm chose me."
+   }
+  ],
+  "alt": "Kaito mid-air above the pagoda after a full vertical slash, a colossal lightning bolt following his sword path down through the storm, Gozan's nodachi shattering, fire and rain fro",
+  "sfx": {
+   "text": "ズドォン"
+  }
+ },
+ "after": [
+  {
+   "id": "n6",
+   "ar": "21/9",
+   "video": "media/n6.mp4",
+   "poster": "media/n6.jpg",
+   "duration": 5.166667,
+   "lines": [
+    {
+     "who": "Narrator",
+     "text": "The next morning, for the first time in a year, the sun rose over the mountain."
+    },
+    {
+     "who": "Kaito",
+     "text": "Rest now, Master. The road is mine."
+    }
+   ],
+   "alt": "Kaito walking down long stone mountain stairs with his master's broken sword tied across his back, the pagoda smoking above, golden first sunlight breaking through clouds. Kaito is",
+   "layout": {
+    "w": 92,
+    "wm": 100,
+    "align": "center",
+    "mt": 4,
+    "par": 30
+   }
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+/* 01 · THUNDER BLADE — white paper, ink, violet storm (closest to the Vagabond reader) */
+[data-theme=raijin]{--bg:#f7f4ee;--accent:#6c2bff;--sfx:#ffd21a;--sfx-stroke:#140a2a;--flash:#f3ecff;--cap-bg:#1b1036}
+[data-theme=raijin] .story::before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(60vw 40vh at 80% 30%,#6c2bff14,transparent 70%),radial-gradient(50vw 50vh at 10% 70%,#ff3d0012,transparent 70%)}
+
+/* 02 · NEON ONI — black night, slice reveals, chromatic split on fast scroll */
+[data-theme=neon]{--bg:#07060f;--ink:#e8e6ff;--paper:#07060f;--accent:#ff2bd6;--sfx:#00f0ff;--sfx-stroke:#2a003a;
+  --bubble-bg:#0b0a18;--bubble-ink:#f4f2ff;--bubble-line:#00f0ff;--cap-bg:#ff2bd6;--cap-ink:#09000c;--flash:#ff2bd6;--flash-blend:screen;
+  --font-title:'Russo One','Dela Gothic One',sans-serif;color-scheme:dark;
+  --shadow:drop-shadow(var(--rgb) 0 0 #ff2bd6aa) drop-shadow(calc(var(--rgb) * -1) 0 0 #00f0ffaa) drop-shadow(0 0 26px #ff2bd633)}
+[data-theme=neon] body::after{content:'';position:fixed;inset:0;z-index:41;pointer-events:none;
+  background:repeating-linear-gradient(0deg,#0000 0 3px,#0000001f 3px 4px);mix-blend-mode:multiply}
+[data-theme=neon] .bubble{box-shadow:0 0 18px #00f0ff66;border-radius:6px}
+[data-theme=neon] .bubble.speech::after{display:none}
+[data-theme=neon] .op-title h1{color:#fff;text-shadow:3px 0 #ff2bd6,-3px 0 #00f0ff,0 0 40px #ff2bd6}
+[data-theme=neon] .end h2,[data-theme=neon] .end-mark{text-shadow:3px 0 #ff2bd6,-3px 0 #00f0ff}
+
+/* 03 · LAST ROUND — blood-and-amber arena, slam reveals, halftone, round clock */
+[data-theme=ring]{--bg:#140606;--ink:#f6e7d4;--paper:#140606;--accent:#ffb21a;--sfx:#ff2a1a;--sfx-stroke:#fff3d6;
+  --bubble-bg:#fff6e6;--cap-bg:#ffb21a;--cap-ink:#1a0600;--flash:#ffcf7a;--flash-blend:screen;color-scheme:dark;
+  --shadow:drop-shadow(0 30px 40px #000c)}
+[data-theme=ring] body{background-image:radial-gradient(70vw 60vh at 50% 0%,#ffb21a33,transparent 70%)}
+[data-theme=ring] .frame::after{content:'';position:absolute;inset:0;pointer-events:none;mix-blend-mode:multiply;opacity:.35;
+  background:radial-gradient(circle,#0006 1px,transparent 1.6px) 0 0/7px 7px}
+[data-theme=ring] .panel{outline:4px solid #000;outline-offset:-2px}
+
+/* 04 · FOXFIRE — washi cream, iris (enso) reveals, maple storm, foxfire */
+[data-theme=kitsune]{--bg:#f2e8d5;--accent:#d3122b;--sfx:#1f5bff;--sfx-stroke:#fff;--bubble-line:#7a0d17;--cap-bg:#7a0d17;--flash:#9fc2ff;
+  --font-sfx:'Yuji Syuku','Reggae One',serif}
+[data-theme=kitsune] body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.012 .5' numOctaves='2' seed='3'/%3E%3CfeColorMatrix values='0 0 0 0 .55 0 0 0 0 .42 0 0 0 0 .3 0 0 0 .08 0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E")}
+[data-theme=kitsune] .frame{border-radius:3px}
+
+/* 05 · STEPPE WHIRLWIND — sky that turns to gold, horizontal gallop track, ornament */
+[data-theme=steppe]{--bg:#7fd0e8;--ink:#2a1606;--accent:#c4161c;--sfx:#c4161c;--sfx-stroke:#ffe9a8;--cap-bg:#c4161c;--flash:#ffe28a;
+  --bubble-line:#5a2a06;--title-ink:#fff6dd}
+[data-theme=steppe] .story::after{content:'';position:absolute;left:0;right:0;top:0;height:46px;pointer-events:none;opacity:.9;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='92' height='46'%3E%3Cpath d='M46 4c10 0 14 8 10 14-3 5-10 4-10-1 0-4 5-4 5-1M46 4c-10 0-14 8-10 14 3 5 10 4 10-1 0-4-5-4-5-1M46 42c10 0 14-8 10-14-3-5-10-4-10 1 0 4 5 4 5 1M46 42c-10 0-14-8-10-14 3-5 10-4 10 1 0 4-5 4-5 1M0 23h30M62 23h30' fill='none' stroke='%23c4161c' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") center/92px 46px repeat-x}
+[data-theme=steppe] .h-track::before{content:'GALLOP';position:absolute;left:4vw;top:6vh;font-family:var(--font-title);font-size:12vw;color:#ffffff30;z-index:0;letter-spacing:.1em}
+
+/* 06 · FROST BERSERKER — polar night with shifting aurora, crack reveals, snow */
+[data-theme=frost]{--bg:#060c1d;--ink:#e6f6ff;--paper:#060c1d;--accent:#5cffc8;--sfx:#bff3ff;--sfx-stroke:#0b1d4a;
+  --bubble-bg:#f2fbff;--bubble-line:#0b1d4a;--cap-bg:#0b1d4a;--cap-ink:#bff3ff;--flash:#bff3ff;--flash-blend:screen;color-scheme:dark;
+  --shadow:drop-shadow(0 0 1px #bff3ff) drop-shadow(0 24px 40px #000a)}
+[data-theme=frost] body::before{content:'';position:fixed;inset:-20vh -10vw auto;height:80vh;z-index:0;pointer-events:none;filter:blur(40px);opacity:.55;
+  background:linear-gradient(100deg,transparent 10%,#2bffb0 30%,#7a3cff 50%,#ff3ca8 62%,transparent 80%);animation:aurora 14s ease-in-out infinite alternate}
+@keyframes aurora{to{transform:translateX(12vw) skewX(-12deg)}}
+
+/* 07 · THE ABYSS — descending ocean, sonar iris reveals, depth gauge */
+[data-theme=abyss]{--bg:#1d78a8;--ink:#e3fbff;--paper:#020611;--accent:#38ffd2;--sfx:#38ffd2;--sfx-stroke:#001a2a;
+  --bubble-bg:#e9fffb;--bubble-line:#00405a;--cap-bg:#00151f;--cap-ink:#38ffd2;--flash:#38ffd2;--flash-blend:screen;color-scheme:dark;
+  --shadow:drop-shadow(0 0 30px #38ffd233) drop-shadow(0 20px 30px #0009)}
+[data-theme=abyss] .frame{border-radius:14px}
+
+/* 08 · VOLCANO — obsidian and magma, rising lava reveals, embers, heat gauge */
+[data-theme=volcano]{--bg:#0d0504;--ink:#ffe7cf;--paper:#0d0504;--accent:#ff6a00;--sfx:#ffcf3a;--sfx-stroke:#3a0700;
+  --bubble-bg:#fff1df;--bubble-line:#3a0700;--cap-bg:#ff6a00;--cap-ink:#1a0300;--flash:#ff7a1a;--flash-blend:screen;color-scheme:dark;
+  --shadow:drop-shadow(0 0 2px #ff6a00) drop-shadow(0 0 30px #ff3d0055) drop-shadow(0 24px 30px #000)}
+[data-theme=volcano] body{background-image:radial-gradient(90vw 50vh at 50% 110%,#ff3d0055,transparent 70%);background-attachment:fixed}
+
+/* 09 · TYPHOON — rolling deck, storm that breaks into sun, wave reveals */
+[data-theme=typhoon]{--bg:#16242c;--ink:#e8fff6;--paper:#16242c;--accent:#ffd34d;--sfx:#7dffb4;--sfx-stroke:#062018;
+  --bubble-bg:#fbfff8;--bubble-line:#062018;--cap-bg:#062018;--cap-ink:#ffd34d;--flash:#e8fff6;--flash-blend:screen;color-scheme:dark;
+  --font-title:'Pirata One','Dela Gothic One',serif}
+[data-theme=typhoon] .op-title h1{letter-spacing:.02em;font-size:clamp(60px,12vw,220px)}
+
+/* 10 · SKY WHALERS — sky that becomes sunset, cloud reveals, floating decks */
+[data-theme=sky]{--bg:#8fd6f0;--ink:#2b1638;--accent:#ff5e7e;--sfx:#ffffff;--sfx-stroke:#ff5e7e;--cap-bg:#2b1638;--cap-ink:#ffd8a8;--flash:#fff4d6;
+  --bubble-line:#2b1638;--shadow:drop-shadow(0 24px 40px #2b163844)}
+[data-theme=sky] .frame{border-radius:26px}
